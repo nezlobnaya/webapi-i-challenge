@@ -22,6 +22,7 @@ server.get('/hobbits', (req, res) => {
   res.status(200).json(hobbits);
 });
 
+//a new endpoint for users
 server.get('/users', (req, res) => {
   db.find()
   .then(users => {
